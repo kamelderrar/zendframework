@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+	<prod>
+		<database>
+			<host>dbserver</host>
+			<user>dbuser</user>
+			<pass>dbprodpass</pass>
+			<name>dbname</name>
+		</database>
+	</prod>
+	<dev extends="prod">
+		<database>
+			<host>localhost</host>
+			<pass>dbpass</pass>
+		</database>
+	</dev>
+</config>
